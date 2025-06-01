@@ -1,0 +1,8 @@
+[package]
+name = "cairo_rs_examples"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+cairo-rs = { version = "0.20.10", features = ["svg"] }
